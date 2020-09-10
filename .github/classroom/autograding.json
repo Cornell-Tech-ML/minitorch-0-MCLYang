@@ -3,7 +3,7 @@
     {
       "name": "Style",
       "setup": "sudo -H pip3 install -qr requirements.txt",
-      "run": "python3 run_tests.py 0",
+      "run": "flake8 --ignore \"N801, E203, E266, E501, W503, F812, E741, N803, N802, N806\" minitorch/ tests/ project/",
       "input": "",
       "output": "",
       "comparison": "included",
